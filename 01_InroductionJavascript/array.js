@@ -20,3 +20,9 @@ cars.unshift('LUCID AIR');  //add an element in first
 console.log(cars);
 cars.shift();   //remove the first element
 console.log(cars);
+
+console.log(cars.length);
+
+//MULTIDIMENTION ARRAY
+let arr2d = [[1, 2, 3], [3, 4, 5], [6, 7, 8]];
+console.log(arr2d[0][2]);
