@@ -57,7 +57,7 @@ const result = multi(4, 5);
 console.log(result);
 
 
-//IIFE(immediately invoked function Expression)
+//IIFE(immediately invoked function Expression) TODO
 let add = (function (a, b) {
     return a + b;
 })(10, 20);
