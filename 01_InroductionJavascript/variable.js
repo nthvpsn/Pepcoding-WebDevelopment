@@ -43,22 +43,3 @@ const fixed = 5;
 console.log(fixed);
 
 /********************************************/
-//FUNCTION
-function addition(a, b) {
-    console.log("Sum :- " + (a + b));
-}
-addition(3, 4);
-
-// function as first class citizens
-const multi = function (a, b) {
-    return a * b;
-}
-const result = multi(4, 5);
-console.log(result);
-
-
-//IIFE(immediately invoked function Expression) TODO
-let add = (function (a, b) {
-    return a + b;
-})(10, 20);
-console.log(add);
